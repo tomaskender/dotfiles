@@ -10,6 +10,8 @@ Plug 'tpope/vim-surround'
 Plug 'jiangmiao/auto-pairs'
 Plug 'puremourning/vimspector'
 Plug 'valloric/youcompleteme'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 call plug#end()
 
 " Run PlugInstall if there are missing plugins
